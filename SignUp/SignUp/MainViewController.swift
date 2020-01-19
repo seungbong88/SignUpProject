@@ -19,20 +19,31 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        idTextField.text = ""
+        pwTextField.text = ""
+    }
 
     @IBAction func clickedSigninBtn(_ sender: Any) {
-        if(UserInformation.UserShared.id == idTextField.text
-            && UserInformation.UserShared.password == pwTextField.text){
-            makeToast(message: "코코월드에 들어오신 걸 환영합니다.")
-        }else{
-            makeToast(message: "정보가 일치하지 않습니다. 코코월드에 들어올 수 없습니다.")
+        
+        var id = idTextField.text ?? ""
+        var pw = pwTextField.text ?? ""
+        
+        if id.count > 0 && pw.count > 0 {
+            if UserInformation.UserShared.id == id && UserInformation.UserShared.password == pw {
+                
+                SysUtils.makeToast(message: "코코월드에 들어오신 걸 환영합니다", durationTime: 3, delayTime: 0.2)
+
+                let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let vc: UIViewController = storyboard.instantiateViewController(identifier: "CocoWorldVC") as UIViewController
+                self.present(vc, animated: true, completion: nil)
+            } else {
+                  SysUtils.makeLongToast(message: "정보가 없습니다.\n코코월드에 들어올 수 없습니다.", durationTime: 3, delayTime: 0.2)
+            }
         }
     }
     
-    
-    func makeToast(message: String) {
-        print("\(message)")
-    }
    
     
     @IBAction func tappedScreen(_ sender: Any) {

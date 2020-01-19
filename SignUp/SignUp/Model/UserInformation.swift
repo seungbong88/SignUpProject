@@ -16,5 +16,6 @@ class UserInformation{
     var password: String = ""
     var birthDay: String = ""
     var introduction: String = ""
+    var phoneNumber: String = ""
     //var Profile: URL?
 }

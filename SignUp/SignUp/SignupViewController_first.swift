@@ -42,12 +42,9 @@ class SignUpViewController_first: UIViewController, UIImagePickerControllerDeleg
 
     @IBAction func clickCancelBtn(_ sender: Any) {
         self.dismiss(animated:true, completion: nil)
-        
-        
     }
-    @IBAction func clickedNextBtn(_ sender: Any) {
-
-    }
+    
+    
     
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -79,17 +76,28 @@ class SignUpViewController_first: UIViewController, UIImagePickerControllerDeleg
                 if pw.count == pw_check.count {
                     nextBtn.isEnabled = true
                     nextBtn.setTitleColor(self.view.tintColor, for: .normal)
+                    saveUserData()
                 }else {
-                    // SystUtil.maketoast("비밀번호가 일치하지 않습니다.")
+                    SysUtils.makeToast(message: "비밀번호가 일치하지 않습니다.", durationTime: 2, delayTime: 0.1)
                     userPwCheck.becomeFirstResponder()
                 }
             }else {
-                // SystUtil.maketoast("비밀번호를 입력해주세요")
+                SysUtils.makeToast(message: "비밀번호를 입력해주세요.", durationTime: 2, delayTime: 0.1)
                 userPW.becomeFirstResponder()
             }
         }else{
-            // SystUtil.maketoast("아이디를 입력해주세요")
+            SysUtils.makeToast(message: "아이디를 입력해주세요.", durationTime: 2, delayTime: 0.1)
             userID.becomeFirstResponder()
         }
     }
+    
+    func saveUserData() {
+        UserInformation.UserShared.id = self.userID.text!
+        UserInformation.UserShared.password = self.userPW.text!
+        UserInformation.UserShared.introduction = self.userIntroduction.text ?? ""
+        
+        // imageUrl 저장
+        // 근데 여기서 바로 저장하면 안될듯 일단 DatePicker하러 고고~
+    }
+
 }

@@ -8,8 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F730B6C623D31CD900CB1349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F730B6C523D31CD900CB1349 /* Assets.xcassets */; };
-		F730B6C923D31DB500CB1349 /* coco.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F730B6C823D31DB500CB1349 /* coco.PNG */; };
 		F730B6CB23D325E800CB1349 /* SignUpViewController_second.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730B6CA23D325E800CB1349 /* SignUpViewController_second.swift */; };
+		F757817023D43A8300922DD4 /* SysUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757816F23D43A8300922DD4 /* SysUtils.swift */; };
+		F767CE8723D49CB300ADD3B7 /* cutecoco.png in Resources */ = {isa = PBXBuildFile; fileRef = F767CE8623D49CB300ADD3B7 /* cutecoco.png */; };
+		F767CE9D23D4A21D00ADD3B7 /* batch_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F767CE9623D4A21D00ADD3B7 /* batch_5.jpg */; };
+		F767CE9E23D4A21D00ADD3B7 /* batch_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F767CE9723D4A21D00ADD3B7 /* batch_6.jpg */; };
+		F767CE9F23D4A21D00ADD3B7 /* batch_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F767CE9823D4A21D00ADD3B7 /* batch_7.jpg */; };
+		F767CEA023D4A21D00ADD3B7 /* batch_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F767CE9923D4A21D00ADD3B7 /* batch_3.jpg */; };
+		F767CEA123D4A21D00ADD3B7 /* batch_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F767CE9A23D4A21D00ADD3B7 /* batch_2.jpg */; };
+		F767CEA223D4A21D00ADD3B7 /* batch_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F767CE9B23D4A21D00ADD3B7 /* batch_1.jpg */; };
+		F767CEA323D4A21D00ADD3B7 /* batch_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F767CE9C23D4A21D00ADD3B7 /* batch_4.jpg */; };
+		F767CEA523D4A30C00ADD3B7 /* CocoWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F767CEA423D4A30C00ADD3B7 /* CocoWorldViewController.swift */; };
 		F7AB664023D3151D00EACA36 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB663F23D3151D00EACA36 /* UserInformation.swift */; };
 		F7AB664223D315FC00EACA36 /* SignupViewController_first.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB664123D315FC00EACA36 /* SignupViewController_first.swift */; };
 		F7AF98FE23D30E460012EB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF98FD23D30E460012EB65 /* AppDelegate.swift */; };
@@ -21,8 +30,17 @@
 
 /* Begin PBXFileReference section */
 		F730B6C523D31CD900CB1349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F730B6C823D31DB500CB1349 /* coco.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coco.PNG; sourceTree = "<group>"; };
 		F730B6CA23D325E800CB1349 /* SignUpViewController_second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController_second.swift; sourceTree = "<group>"; };
+		F757816F23D43A8300922DD4 /* SysUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysUtils.swift; sourceTree = "<group>"; };
+		F767CE8623D49CB300ADD3B7 /* cutecoco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cutecoco.png; sourceTree = "<group>"; };
+		F767CE9623D4A21D00ADD3B7 /* batch_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batch_5.jpg; sourceTree = "<group>"; };
+		F767CE9723D4A21D00ADD3B7 /* batch_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batch_6.jpg; sourceTree = "<group>"; };
+		F767CE9823D4A21D00ADD3B7 /* batch_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batch_7.jpg; sourceTree = "<group>"; };
+		F767CE9923D4A21D00ADD3B7 /* batch_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batch_3.jpg; sourceTree = "<group>"; };
+		F767CE9A23D4A21D00ADD3B7 /* batch_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batch_2.jpg; sourceTree = "<group>"; };
+		F767CE9B23D4A21D00ADD3B7 /* batch_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batch_1.jpg; sourceTree = "<group>"; };
+		F767CE9C23D4A21D00ADD3B7 /* batch_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batch_4.jpg; sourceTree = "<group>"; };
+		F767CEA423D4A30C00ADD3B7 /* CocoWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoWorldViewController.swift; sourceTree = "<group>"; };
 		F7AB663F23D3151D00EACA36 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
 		F7AB664123D315FC00EACA36 /* SignupViewController_first.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController_first.swift; sourceTree = "<group>"; };
 		F7AF98FA23D30E460012EB65 /* SignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,9 +66,32 @@
 		F730B6C723D31DA800CB1349 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F730B6C823D31DB500CB1349 /* coco.PNG */,
+				F767CE9B23D4A21D00ADD3B7 /* batch_1.jpg */,
+				F767CE9A23D4A21D00ADD3B7 /* batch_2.jpg */,
+				F767CE9923D4A21D00ADD3B7 /* batch_3.jpg */,
+				F767CE9C23D4A21D00ADD3B7 /* batch_4.jpg */,
+				F767CE9623D4A21D00ADD3B7 /* batch_5.jpg */,
+				F767CE9723D4A21D00ADD3B7 /* batch_6.jpg */,
+				F767CE9823D4A21D00ADD3B7 /* batch_7.jpg */,
+				F767CE8623D49CB300ADD3B7 /* cutecoco.png */,
+				F730B6C523D31CD900CB1349 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F757816D23D43A1B00922DD4 /* PopupView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PopupView;
+			sourceTree = "<group>";
+		};
+		F757816E23D43A7300922DD4 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F757816F23D43A8300922DD4 /* SysUtils.swift */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 		F7AB663E23D3150600EACA36 /* Model */ = {
@@ -80,17 +121,19 @@
 		F7AF98FC23D30E460012EB65 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
-				F730B6C723D31DA800CB1349 /* Resources */,
+				F757816E23D43A7300922DD4 /* System */,
 				F7AB663E23D3150600EACA36 /* Model */,
+				F757816D23D43A1B00922DD4 /* PopupView */,
 				F7AF98FD23D30E460012EB65 /* AppDelegate.swift */,
 				F7AF98FF23D30E460012EB65 /* SceneDelegate.swift */,
 				F7AF990123D30E460012EB65 /* MainViewController.swift */,
 				F7AB664123D315FC00EACA36 /* SignupViewController_first.swift */,
 				F730B6CA23D325E800CB1349 /* SignUpViewController_second.swift */,
+				F767CEA423D4A30C00ADD3B7 /* CocoWorldViewController.swift */,
 				F7AF990823D30E470012EB65 /* LaunchScreen.storyboard */,
 				F7AF990323D30E460012EB65 /* Main.storyboard */,
 				F7AF990B23D30E470012EB65 /* Info.plist */,
-				F730B6C523D31CD900CB1349 /* Assets.xcassets */,
+				F730B6C723D31DA800CB1349 /* Resources */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -154,9 +197,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AF990A23D30E470012EB65 /* LaunchScreen.storyboard in Resources */,
+				F767CE9E23D4A21D00ADD3B7 /* batch_6.jpg in Resources */,
+				F767CEA223D4A21D00ADD3B7 /* batch_1.jpg in Resources */,
+				F767CEA323D4A21D00ADD3B7 /* batch_4.jpg in Resources */,
 				F730B6C623D31CD900CB1349 /* Assets.xcassets in Resources */,
 				F7AF990523D30E460012EB65 /* Main.storyboard in Resources */,
-				F730B6C923D31DB500CB1349 /* coco.PNG in Resources */,
+				F767CE9D23D4A21D00ADD3B7 /* batch_5.jpg in Resources */,
+				F767CE9F23D4A21D00ADD3B7 /* batch_7.jpg in Resources */,
+				F767CEA023D4A21D00ADD3B7 /* batch_3.jpg in Resources */,
+				F767CEA123D4A21D00ADD3B7 /* batch_2.jpg in Resources */,
+				F767CE8723D49CB300ADD3B7 /* cutecoco.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +218,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F730B6CB23D325E800CB1349 /* SignUpViewController_second.swift in Sources */,
+				F757817023D43A8300922DD4 /* SysUtils.swift in Sources */,
 				F7AF990223D30E460012EB65 /* MainViewController.swift in Sources */,
+				F767CEA523D4A30C00ADD3B7 /* CocoWorldViewController.swift in Sources */,
 				F7AB664023D3151D00EACA36 /* UserInformation.swift in Sources */,
 				F7AF98FE23D30E460012EB65 /* AppDelegate.swift in Sources */,
 				F7AF990023D30E460012EB65 /* SceneDelegate.swift in Sources */,
