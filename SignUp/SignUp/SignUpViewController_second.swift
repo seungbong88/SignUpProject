@@ -69,6 +69,8 @@ class SignUpViewController_second: UIViewController {
     }
 
     @IBAction func tappedScreen(_ sender: Any) {
+        self.view.endEditing(true)
+        
         if let phoneNum = userPhoneNumber.text {
             if phoneNum.count > 0 {
                 completeBtn.setTitleColor(self.view.tintColor, for: .normal)
